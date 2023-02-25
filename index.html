@@ -6,130 +6,158 @@
 <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" class="init">
 $(document).ready(function () {
-	$('#example').DataTable();
+	$('#tab_industry').DataTable();
 });
 	</script>
+<script type="text/javascript" class="init">
+$(document).ready(function () {
+	$('#tab_academia').DataTable();
+});
+	</script>
+
 </head>
 
 <body>
 
-<h1>For you</h1>
-<table id="example" class="display" style="width:100%">
+<h1>Computer Vision and Machinie Learning labs</h1>
+
+<h2> Industry </h2>
+
+<table id="tab_industry" class="display" style="width:100%">
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Age</th>
-                <th>Start date</th>
-                <th>Salary</th>
+                <th>Location</th>
+                <th>Head</th>
+                <th>Areas</th>
+                <th>Keywords</th>
+				<th>Conferences</th>
+                <th>PubCount</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Tiger Nixon</td>
-                <td>System Architect</td>
-                <td>Edinburgh</td>
-                <td>61</td>
-                <td>2011-04-25</td>
-                <td>$320,800</td>
+                <td><a href="https://prior.allenai.org/">Allen Institute for AI, PRIOR </a></td>
+                <td>Seattle, Washington, US</td>
+                <td><a href="https://anikem.github.io/">Aniruddha Kembhavi</a></td>
+                <td>CV, </td>
+                <td>VQA, GPV, Embodied AI</td>
+				<td>1x TMLR, 1xNeurIPS, 3xECCV, 5xCVPR, 1xAAAI</td>
+                <td>11 </td>
             </tr>
             <tr>
-                <td>Garrett Winters</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>63</td>
-                <td>2011-07-25</td>
-                <td>$170,750</td>
+                <td><a href="https://www.nec-labs.com/research/media-analytics/home/">NEC-labs, Media Analytics</a></td>
+                <td>San Jose, California, US</td>
+                <td><a href="https://www.nec-labs.com/research/media-analytics/people/manmohan-chandraker/">Manmohan Chandraker</a></td>
+                <td>CV, </td>
+                <td>CL, SS</td>
+				<td>5xCVPR</td>
+                <td>5 </td>
             </tr>
             <tr>
-                <td>Ashton Cox</td>
-                <td>Junior Technical Author</td>
-                <td>San Francisco</td>
-                <td>66</td>
-                <td>2009-01-12</td>
-                <td>$86,000</td>
+                <td><a href="https://sites.google.com/view/vittoferrari#h.p_aFjntAcaFBpO">Google Zurich, CV and ML lab</a></td>
+                <td>Zurich, Switzerland, Europe</td>
+                <td><a href="https://sites.google.com/view/vittoferrari/home">Vittorio Ferrari</a></td>
+                <td>CV, </td>
+                <td>3DR, M3DR, LL</td>
+				<td>3xECCV, 5xCVPR, 2xTPAMI, 2xWACV</td>
+                <td>12</td>
             </tr>
             <tr>
-                <td>Cedric Kelly</td>
-                <td>Senior Javascript Developer</td>
-                <td>Edinburgh</td>
-                <td>22</td>
-                <td>2012-03-29</td>
-                <td>$433,060</td>
+                <td><a href="https://research.samsung.com/aicenter_toronto">Samsung AI Center, Toronto</a></td>
+                <td>Toronto, Canada</td>
+                <td><a href="http://www.cs.toronto.edu/~sven/">Sven Dickinson</a>,
+					<a href="http://www.cs.toronto.edu/~jepson/">Allan Jepson</a></td>
+                <td>CV </td>
+                <td>3D, GAN  </td>
+				<td>3xCVPR, 1xECCV, 1xWACV</td>
+                <td>5</td>
             </tr>
             <tr>
-                <td>Airi Satou</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>33</td>
-                <td>2008-11-28</td>
-                <td>$162,700</td>
+                <td><a href="https://research.samsung.com/aicentre_cambridge">Samsung AI Center, Cambridge</a></td>
+                <td>Cambridge, England, Europe</td>
+                <td><a href="http://niclane.org/">Nicholas Lane</a>,
+                <a href="https://homepages.inf.ed.ac.uk/thospeda/">Timothy Hospedales</a>,
+					<a href="https://ytzimiro.github.io/">Georgios Tzimiropoulos</a></td>
+                <td>CV </td>
+                <td>S2S, SS, FSL </td>
+				<td>1CVPR, 3xECCV, 1xICML, 1xICLR</td>
+                <td>6</td>
             </tr>
+
+</table>
+
+<br><br><br>
+
+
+<h2> Academia </h2>
+<table id="tab_academia" class="display" style="width:100%">
+        <thead>
             <tr>
-                <td>Brielle Williamson</td>
-                <td>Integration Specialist</td>
-                <td>New York</td>
-                <td>61</td>
-                <td>2012-12-02</td>
-                <td>$372,000</td>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Head</th>
+                <th>Areas</th>
+                <th>Keywords</th>
+				<td>Conferences</td>
+                <th>PubCount</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
-                <td>Herrod Chandler</td>
-                <td>Sales Assistant</td>
-                <td>San Francisco</td>
-                <td>59</td>
-                <td>2012-08-06</td>
-                <td>$137,500</td>
+                <td><a href="https://geometry.stanford.edu/index.html">Geometric Computic Group, Stanford University</a></td>
+                <td>Stanford, California, US</td>
+                <td><a href="https://geometry.stanford.edu/member/guibas/index.html">Leonidas Guibas</a></td>
+                <td>CV, </td>
+                <td>3DGAN, DA, PC, SS,  </td>
+				<td>1xRSS, 7xCVPR, 1xSIGGRAPH, 3xICLR, 1xRAL</td>
+                <td>13</td>
             </tr>
-            <tr>
-                <td>Rhona Davidson</td>
-                <td>Integration Specialist</td>
-                <td>Tokyo</td>
-                <td>55</td>
-                <td>2010-10-14</td>
-                <td>$327,900</td>
-            </tr>
-            <tr>
-                <td>Colleen Hurst</td>
-                <td>Javascript Developer</td>
-                <td>San Francisco</td>
-                <td>39</td>
-                <td>2009-09-15</td>
-                <td>$205,500</td>
-            </tr>
-            <tr>
-                <td>Sonya Frost</td>
-                <td>Software Engineer</td>
-                <td>Edinburgh</td>
-                <td>23</td>
-                <td>2008-12-13</td>
-                <td>$103,600</td>
-            </tr>
-            <tr>
-                <td>Jena Gaines</td>
-                <td>Office Manager</td>
-                <td>London</td>
-                <td>30</td>
-                <td>2008-12-19</td>
-                <td>$90,560</td>
-            </tr>
-            <tr>
-                <td>Quinn Flynn</td>
-                <td>Support Lead</td>
-                <td>Edinburgh</td>
-                <td>22</td>
-                <td>2013-03-03</td>
-                <td>$342,000</td>
-            </tr>
-            <tr>
-                <td>Charde Marshall</td>
-                <td>Regional Director</td>
-                <td>San Francisco</td>
-                <td>36</td>
-                <td>2008-10-16</td>
-                <td>$470,600</td>
-            </tr>
+
+
+</table>
+
+<p>
+Notes: <br>
+
+0. View source, request updates <a href="https://github.com/matd3m0n/ai_labs">here</a>.
+
+<br>
+1. <b>Areas</b> covers only last year of research (2022) <br>
+a. CV - Computer Vision<br>
+
+<br>
+2. <b>Keywords</b> covers only last year of research (2022) <br>
+a. VQA - Visual Question Answering <br>
+b. GPV - General Purpose Vision <br>
+c. CL - Continual Learning <br>
+d. SS - Semantic Segmentation <br>
+e. LL - Lifelong Learning <br>
+f. 3DR - 3D Reconstruction <br>
+g. M3DR - Monocular 3D Reconstruction, 3D reconstruction from single images <br>
+i. IS - Instance Segmentation <br>
+j. OF - Optical Flow <br>
+h. 3DOD - 3D Object Detection <br>
+i. Segm - Segmentation <br>
+j. VAE - Variational Auto-Encoders <br>
+k. DE - Depth Estimation <br>
+h. S2S - Sequence-to-Sequence <br>
+i. FSL - Few Shot Learning <br>
+j. DA - Domain Adaptation <br>
+k. PC - Point Clouds <br>
+
+              
+<br>
+3. <b>PubCount</b> covers research papers published in tier-1 conferences/journals in 2022
+
+<br>
+
+
+</p>
+
+
+
+
 </body>
 
 </html>
